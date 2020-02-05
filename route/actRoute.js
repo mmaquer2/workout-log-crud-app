@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../config/dbConn');
-const user = require('../model/logModel');
+const user = require('../model/actModel');
 const Sequelize = require('sequelize')
 
 // Get list of all users

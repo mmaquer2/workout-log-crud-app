@@ -40,4 +40,4 @@ app.get('/', (req, res) => res.render('index'));
 
 
 //  routes
-app.use('/dash', require('./route/logRoute'));
+app.use('/dash', require('./route/actRoute'));
