@@ -1,5 +1,5 @@
 ## workout log application
-    - built with vanilla js, express.js, node.js, sequelize, and postGres
+    - built with vanilla js, express.js, node.js, sequelize, and postgrSQL
 
 - workout log CRUD App
 

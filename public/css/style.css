@@ -1,4 +1,14 @@
 html {
 
-    
+    background-color: antiquewhite;
+}
+
+
+
+.workCard {
+
+    border-radius: 20px;
+    height:100px;
+
+
 }

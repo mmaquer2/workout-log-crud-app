@@ -1,0 +1,41 @@
+<section id="dash" class="displayData">
+
+    <h3> Workout History:  </h3>
+   
+    
+
+    
+    <div class = "card" style="width: 18rem;">
+        <div class="card-body">
+      
+            {{#each this}}
+
+            {{workouttype}}
+      
+
+             {{workoutdist}}
+      
+      
+            {{workouttime}}
+
+
+
+        {{else}}
+      <p> There are no logged workouts. </p>
+    
+        
+        {{/each}}     
+            
+        </div>
+
+       
+
+    
+    </div>
+
+
+    
+    
+
+    
+</section>

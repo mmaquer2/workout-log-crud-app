@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
-const db = require('../config/db_conn');
+const db = require('../config/dbConn');
 
-const user = db.define('workoutdata', {
+const Act = db.define('workOutStats', {
   workouttype: {
     type: Sequelize.STRING
   },
@@ -13,4 +13,4 @@ const user = db.define('workoutdata', {
   }
 });
 
-module.exports = user;
+module.exports = Act;

@@ -1,0 +1,36 @@
+<section id="add" class="search-wrap">
+    <h1> Enter workouts here: </h1>
+
+
+
+<div class = "container">
+<div class="form-wrap">
+    <form action="/add" method="POST" class="add-form">
+      <i class="fas fa-search"></i>
+
+
+      <input type="text"  placeholder="workout type" name = "workouttype" id = "workouttype" value="{{workouttype}}">
+      <p> Options: Run, Bike, Swim</p>
+
+      <input type="text" placeholder="workout distance" name = "workoutdist" id = "workoutdist" value = {{workoutdist}}>
+      <p>Units: Km, Miles, Meters, yards etc</p>
+      
+      <input type="text"  placeholder="Total Time" name = "workouttime" id = "workouttime" value = {{workouttime}}>
+      <p> total time</p>
+      
+      <input type="submit" value="Add Workout">
+
+    </form>
+
+
+
+</div>
+
+</div>
+
+
+    
+  </section>
+
+
+ 
